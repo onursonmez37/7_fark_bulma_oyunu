@@ -107,55 +107,55 @@ isFive(MainActivity.nasaSayac);
 
 
 ### Final tanımlamalarımız:	
-final Button gunes = findViewById(R.id.yildiz);
-final Button deve = findViewById(R.id.deve);
-final Button cadir = findViewById(R.id.cadır);
-final Button kaktus = findViewById(R.id.kaktus);
-final Button sapka = findViewById(R.id.sapka);
-final Button piramit = findViewById(R.id.piramit);
-final Button gozluk = findViewById(R.id.btnGozluk);
-final TextView tvArapSayac = findViewById(R.id.arapSayac);
-final ConstraintLayout ly = findViewById(R.id.arapLayout);
+final Button gunes = findViewById(R.id.yildiz);<br/>
+final Button deve = findViewById(R.id.deve);<br/>
+final Button cadir = findViewById(R.id.cadır);<br/>
+final Button kaktus = findViewById(R.id.kaktus);<br/>
+final Button sapka = findViewById(R.id.sapka);<br/>
+final Button piramit = findViewById(R.id.piramit);<br/>
+final Button gozluk = findViewById(R.id.btnGozluk);<br/>
+final TextView tvArapSayac = findViewById(R.id.arapSayac);<br/>
+final ConstraintLayout ly = findViewById(R.id.arapLayout);<br/>
 
 
 ## XML KODLARI
 ## Aktivity main xml’i
 <Button
-    android:id="@+id/btnIlk" –buton id’si
-    android:layout_width="wrap_content"   -> genişliği ortala 
-    android:layout_height="wrap_content" -> yüksekliği ortala
-    android:background="@color/colorPrimary"-> rengi ayarlama
-    android:visibility="invisible"         -> görünürlüğü gizli
+    android:id="@+id/btnIlk" –buton id’si<br/>
+    android:layout_width="wrap_content"   -> genişliği ortala <br/>
+    android:layout_height="wrap_content" -> yüksekliği ortala<br/>
+    android:background="@color/colorPrimary"-> rengi ayarlama<br/>
+    android:visibility="invisible"         -> görünürlüğü gizli<br/>
 />
 
 Birinci   bölüm
-xml’i	<Button
-    android:id="@+id/bayrak" –> bayrak üzerindeki buton id’si
-    android:layout_marginLeft="120dp" -> Soldan 120dp kayması
-    android:background="@color/colorPrimary" -> renk ayarı
-    android:visibility="invisible" -> görünürlüğü gizli
+xml’i	<Button<br/>
+    android:id="@+id/bayrak" –> bayrak üzerindeki buton id’si<br/>
+    android:layout_marginLeft="120dp" -> Soldan 120dp kayması<br/>
+    android:background="@color/colorPrimary" -> renk ayarı<br/>
+    android:visibility="invisible" -> görünürlüğü gizli<br/>
   />
 
 İkinci  bölüm
 xml’i	<Button
- android:id="@+id/kaktus" –> kaktüs üzerindeki buton id’si
- android:layout_width="wrap_content"-> genişliği ortalama
- android:layout_height="wrap_content" -> yüksekliği ortalama
- android:layout_marginTop="318dp"-> kenardan 318dp boşluk bırak
+ android:id="@+id/kaktus" –> kaktüs üzerindeki buton id’si<br/>
+ android:layout_width="wrap_content"-> genişliği ortalama<br/>
+ android:layout_height="wrap_content" -> yüksekliği ortalama<br/>
+ android:layout_marginTop="318dp"-> kenardan 318dp boşluk bırak<br/>
 />
 
 
 üçüncü  bölüm
 xml’i	<Button
-    android:id="@+id/topurcuk" -> buton id’si topurcuk
-    android:layout_width="99dp" ->genişliği 99dp 
-    android:layout_height="74dp" ->yüksekliği 99dp
-    android:layout_marginEnd="4dp" ->sondan 4dp uzak
-    android:layout_marginRight="4dp" ->sağdan 4dp uzak/>
+    android:id="@+id/topurcuk" -> buton id’si topurcuk<br/>
+    android:layout_width="99dp" ->genişliği 99dp <br/>
+    android:layout_height="74dp" ->yüksekliği 99dp<br/>
+    android:layout_marginEnd="4dp" ->sondan 4dp uzak<br/>
+    android:layout_marginRight="4dp" ->sağdan 4dp uzak/><br/>
 # UYGULAMA SONUCU:
 Uygulamam tüm android cihazlar için uyumludur. Zaman sıkıntısı olmadan görsel  hafızanızı geliştirebilir ve boş zamanlarınızı değerlendirirken eğlenceli oyun oynama zevki sunuyor. Eğlenceli resimlerle oyundan sıkılmadan dilediğiniz kadar oynayabileceksiniz.
 
- KARŞILAŞTIĞIM ZORLUKLAR: 
+## KARŞILAŞTIĞIM ZORLUKLAR: 
 Sayfalar arası veri çekme ve kullanma: Giriş sayfasında ilk bölümü direk açılırken ikinci ve üçüncü bölümler için bir önceki bölümün doğru sayacını öğrenmemiz ve bunu karşılaştırmamız gerekiyordu. Giriş ekranı üzerinde ikinci butona bastığında kodda ilk bölümün doğru sayacı eşit mi yediye diye kontrol ettirip eğer eşit ise tıklanabilirlik özelliğini aktif ediyoruz ve bölüm içerisine girilmesine izin veriyoruz.
 ## EKSİK GÖRDÜĞÜM YERLER: 
 	Doğru ve yanlış seçimlerde kullanıcıya doğruyu veya yanlışı işaretlediğini belli etme amaçlı işaret koyma.<br/>
