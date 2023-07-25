@@ -5,7 +5,7 @@ Eğlenceli iki resim arasındaki farkları bulma ve yaratıcı beyin eğitimi oy
 Uygulamayı açın ve hemen iki resim arasındaki yedi farkı bulmaya başlayın. Eğlenceli resimlerle süslü eğitici bulmaca oyunumuz ile beyin jimnastiği yapın ve görsel yeteneklerinizi geliştirin. Fark bulma oyunları kişilerin dikkatli olmalarını ve daha iyi odaklanmalarını sağlamakla beraber zihninizi daha hızlı çalıştıran oyun grubudur. Neredeyse aynı olan iki fotoğrafı karşılaştırırken gözlem becerilerinizi test edin ve farklılıkları bulmaya çalışın! 7 farkı bul oyunu, görsel motor becerilerinin yanı sıra hem zeka geliştirici hem de hafıza geliştirici bir özelliğe sahiptir.
 Eğlenceli bulmaca oyununda farklılıkları bulmaya hazır ol! Hedefin şu: resimlere bak, farkları bul, bulduğun her farkta alt resime dokun. Her seviyede, neredeyse birbirinin aynısı görünen iki güzel fotoğraf sunulacak. Bunlar arasında küçük farklılıklar var. Seviyelerde ilerledikçe seni daha da zorlayacak olan bu oyun sana eğlenme fırsatı sunuyor...
 ## Oyunda ki amaç:
-Oyunumdaki amaç hem eğlenceli zaman geçirirken hem de motor becerilerinizi geliştirmek. Uygulama içerisindeki hem renk farklılıkları hem de varlık farklılıkları ile kendi dikkat becerinizi ölçebilirsiniz.
+Oyunumdaki amaç çocuklaar için  eğlenceli zaman geçirirken bir yandan da motor becerilerinizi geliştirmelerini sağlamak. Uygulama içerisindeki hem renk farklılıkları hem de varlık farklılıkları ile kendi dikkat becerinizi ölçebilirsiniz.
 ## Hitap ettiği kitle: 
 Yaş aralığı olarak belirli bir sınıfa hitap etmezken iki resim arasındaki farkı ayırabilecek her birey için uygun tasarım ve anlaşılır uyarılarla her birey için uygundur. 
 
