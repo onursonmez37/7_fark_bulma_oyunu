@@ -35,7 +35,8 @@ Kullanım şekli: Toast.makeText(getApplicationContext(), "Yazılacak Mesaj",			
     //Toast.LENGTH_LONG yerine 2000 girersek 2 sn gösterecektir.
 ## FORM EKRANLARI
 ### GİRİŞ EKRANI
-Alt tarafta “7 Fark Bulma” oyunumuzun giriş ekranı bulunmaktadır. Bu ekran üzerindeki rakamların da üzerinde transparan butonlar bulunmaktadır. 1 numaralı buton üzerindeki butona direk erişim sağlanabilirken 2 ve 3 numaralı butonlara ise koşullandırma ile aktif ediliyor.  Her bölüm içerisinde doğru ve yanlış sayacı olmak üzere 2 adet sayacımız bulunmaktadır. Bölüm içerisinde yanlış sayacımız ve doğru sayacımız için koşullar bulunmaktadır. Doğru sayacımız yediye eşit olduğunda ana menüye dönerek ekrana “bölüm başarıyla geçildi” mesajı veriliyor ve bir sonraki bölümün geçiş yapacak olan transparan butonunun tıklanabilir özelliğini aktif et komutunu çalıştırır. Yanlış sayacımız ise 3 e eşit olduğunda “3 Defa Yanlış Seçim Yaptınız” ile uyarı verip bölüm içerisindeki sayaçları sıfırlar ve giriş ekranımıza dönüş sağlanır.	 
+Alt tarafta “7 Fark Bulma” oyunumuzun giriş ekranı bulunmaktadır. Bu ekran üzerindeki rakamların da üzerinde transparan butonlar bulunmaktadır. 1 numaralı buton üzerindeki butona direk erişim sağlanabilirken 2 ve 3 numaralı butonlara ise koşullandırma ile aktif ediliyor.  Her bölüm içerisinde doğru ve yanlış sayacı olmak üzere 2 adet sayacımız bulunmaktadır. Bölüm içerisinde yanlış sayacımız ve doğru sayacımız için koşullar bulunmaktadır. Doğru sayacımız yediye eşit olduğunda ana menüye dönerek ekrana “bölüm başarıyla geçildi” mesajı veriliyor ve bir sonraki bölümün geçiş yapacak olan transparan butonunun tıklanabilir özelliğini aktif et komutunu çalıştırır. Yanlış sayacımız ise 3 e eşit olduğunda “3 Defa Yanlış Seçim Yaptınız” ile uyarı verip bölüm içerisindeki sayaçları sıfırlar ve giriş ekranımıza dönüş sağlanır.
+
 ![giris ekranı](https://github.com/onursonmez37/7_fark_bulma_oyunu/blob/main/android/giris.png)<br/>
 ### İLK BÖLÜM:
 Giriş ekranında 1 numaralı transparan butona tıklanması ile gelecek olan ekrandır. Bölüm açılır açılmaz kullanıcıya alt resimde işaretleme yapınız mesajı verilir ve bulmaca çözülmeye başlatılır. Bölüm içerisinde 2 sayaç bulunur birincisi yanlış işaretlenme sayısını tutarken diğeri de doğru işaretlenme sayısını tutar. Yanlış işaretlenmede yanlış sayacı birer birer artar ve üç olduğunda bölümden çıkar ve ekrana uyarı verip giriş ekranına döner. Her doğru işaretlenmede de sayaç birer birer artar, doğru sayacı 7 ye eşit olduğunda ekrana bölüm tamamlandı mesajı verip giriş ekranındaki 2.bölümün transparan ve pasif olan butonunu aktife çekerek tıklanabilirlik özelliğini değiştirir.	 
@@ -157,10 +158,10 @@ Uygulamam tüm android cihazlar için uyumludur. Zaman sıkıntısı olmadan gö
  KARŞILAŞTIĞIM ZORLUKLAR: 
 Sayfalar arası veri çekme ve kullanma: Giriş sayfasında ilk bölümü direk açılırken ikinci ve üçüncü bölümler için bir önceki bölümün doğru sayacını öğrenmemiz ve bunu karşılaştırmamız gerekiyordu. Giriş ekranı üzerinde ikinci butona bastığında kodda ilk bölümün doğru sayacı eşit mi yediye diye kontrol ettirip eğer eşit ise tıklanabilirlik özelliğini aktif ediyoruz ve bölüm içerisine girilmesine izin veriyoruz.
 ## EKSİK GÖRDÜĞÜM YERLER: 
-	Doğru ve yanlış seçimlerde kullanıcıya doğruyu veya yanlışı işaretlediğini belli etme amaçlı işaret koyma.
+	Doğru ve yanlış seçimlerde kullanıcıya doğruyu veya yanlışı işaretlediğini belli etme amaçlı işaret koyma.<br/>
 	Bölüm ekranlarındaki alt ve üst resimlerde buton koyup bunları birbirine eşitleyerek kullanıcıya sadece alt resimde işaretlemeyi zorunlu bırakmama.
  ## GELİŞTİRME ÖNERİLERİ:
-	Bölümlerdeki resimlerin zorluk seviyesi arttırabilir.
-	Süre konulabilir.
-	Kullanıcıdan fotoğraf alınıp bunu bölümlerde sunabilirim.
+	Bölümlerdeki resimlerin zorluk seviyesi arttırabilir.<br/>
+	Süre konulabilir.<br/>
+	Kullanıcıdan fotoğraf alınıp bunu bölümlerde sunabilirim.<br/>
 	Bölüm sonlarında yıldız ile ödüllendirip her 10 bölümde 30 yıldıza ulaştığında istediği bölümü direk geçebilme butonu eklenebilir.
