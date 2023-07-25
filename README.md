@@ -26,8 +26,8 @@ sapka.setOnClickListener(new View.OnClickListener() {
           isSeven(MainActivity.arapSayac);
 #### Yanlış Sayacı:
 Yanlış sayacımız ise o bölümdeki her yanlış tıklamayı içerisinde tutuyor ve sayacımız 3 olduğunda bölüm tamamlanamadı uyarısıyla giriş ekranına dönüş sağlanıyor. Doğru sayacına benzer kod bloğu vardır.
-#### Bölüm Sayacı
-: Bölüm sayacı ilk açılış yapıldığında “0” olarak başlıyor ve ilk bölüme girme ile koşullandırma başlıyor. İlk bölüm içerisinden doğru sayacını çekerek doğru sayacı=7 butonu aktif et diyerek tıklanma olayını gerçekleştirilmesine izin veren sayacımızdır. 
+#### Bölüm Sayacı:
+Bölüm sayacı ilk açılış yapıldığında “0” olarak başlıyor ve ilk bölüme girme ile koşullandırma başlıyor. İlk bölüm içerisinden doğru sayacını çekerek doğru sayacı=7 butonu aktif et diyerek tıklanma olayını gerçekleştirilmesine izin veren sayacımızdır. 
 Toast:  Toast sınıfı, mesaj oluşturmaya ve oluşturduğumuz mesajı kullanıcıya göstermeye yardımcı olur. Bizim proje içerisinde kullandığımız 2 tip toast mesajımız var 
 ->	Bölüm geçildiğinde 
 -> Bölüm geçilemediğinde 
